@@ -4,6 +4,12 @@ Taller 4, semana 4 · Lenguaje de Programación 5 · Universidad Agraria del Ecu
 
 Aplicación Flutter que lee un correo desde un `TextField` y lo muestra al pulsar **Enviar**. Si el campo está vacío o solo contiene espacios, la pantalla solicita un correo. La interfaz y la lógica del formulario están en [`lib/main.dart`](lib/main.dart).
 
+## Capturas en Android
+
+| Formulario inicial | Campo vacío | Correo ingresado |
+| --- | --- | --- |
+| <img src="docs/capturas/formulario-inicial.png" width="220" alt="Formulario con el campo de correo vacío y el botón Enviar"> | <img src="docs/capturas/campo-vacio.png" width="220" alt="Aviso que solicita ingresar un correo electrónico"> | <img src="docs/capturas/correo-ingresado.png" width="220" alt="Resultado del envío con estudiante@uae.edu.ec"> |
+
 ## Ejecutar en Android
 
 Usa Flutter 3.47.7 con Dart 3.13.5 o una versión estable compatible. Abre esta carpeta en Android Studio con los plugins de Flutter y Dart, e inicia un emulador desde **Device Manager**. Desde la raíz del proyecto ejecuta los siguientes comandos.
